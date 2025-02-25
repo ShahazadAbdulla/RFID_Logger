@@ -23,10 +23,9 @@ byte bufferLen = 18;
 byte readBlockData[18];
 
 String card_holder_name;
-const String sheet_url = "https://script.google.com/macros/s/AKfycbzKO00jSk73AibcF6g_p0-qNkCDNDsjso_iad3tgWiYJtY7xeLOSDm1Z16nK774yHRlQQ/exec?name=";
-#define WIFI_SSID "SAINTGITS"
-
-#define WIFI_PASSWORD "saintgitswifi"
+const String sheet_url = "";
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 void setup() {
   Serial.begin(9600);
