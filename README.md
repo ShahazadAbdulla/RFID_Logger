@@ -42,7 +42,7 @@ C:.
 
 ### **1. Clone the Repository**
 ```sh
-git clone https://github.com/ShahazadAbdulla/RFID_Logger.git
+git clone https://github.com/YourUsername/RFID_Logger.git
 cd RFID_Logger
 ```
 
@@ -72,10 +72,10 @@ The main functionality is implemented in the following Arduino script:
 #define RST_PIN 22
 #define BUZZER_PIN 4 // Pin connected to the buzzer
 
-const char* ssid = "S23";
-const char* password = "password";
+const char* ssid = "YourSSID";
+const char* password = "YourWiFiPassword";
 
-String serverUrl = "http://192.168.50.53/logger/test_data.php";
+String serverUrl = "http://your-server-address/logger/test_data.php";
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 String uidString;
@@ -134,7 +134,7 @@ void loop() {
 ## API Endpoint
 The ESP32 sends UID data to a web server. Example request:
 ```http
-POST http://192.168.50.53/logger/test_data.php
+POST http://your-server-address/logger/test_data.php
 Content-Type: application/x-www-form-urlencoded
 
 UID=12345678
@@ -171,5 +171,5 @@ This project is open-source and available under the **MIT License**.
 ---
 
 ## Author
-Developed by **Shahazad Abdulla** 🚀
+Developed by **Your Name** 🚀
 
