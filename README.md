@@ -3,6 +3,9 @@
 ## Overview
 This project is an **RFID-based logging system** using an **ESP32**, **MFRC522 RFID module**, and a web server. The system reads RFID tags, sends the UID to a server, and provides an audible indication using a buzzer. The data is logged on the server for further processing.
 
+![WhatsApp Image 2025-03-19 at 19 32 24](https://github.com/user-attachments/assets/60d189e3-ca38-43fd-810b-814e3904a039)
+
+
 ---
 
 ## Project Structure
